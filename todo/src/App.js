@@ -17,17 +17,15 @@ import Header4 from "./components/Header4";
 import Form4 from "./components/Form4";
 import Todo4 from "./components/Todo4";
 import TodoList4 from "./components/TodoList4";
+import DemoToShafin from "./components/DemoToShafin";
 
 
 function App() {
 
-  const [todo, setTodo] = useState("")
-  const [todoList, setTodoList] = useState([])
+
   return (
     <div>
-      <Header3></Header3>
-      <Form3 todo={todo} setTodo={setTodo} todoList={todoList} setTodoList={setTodoList}></Form3>
-      <TodoList3 todoList={todoList} setTodoList={setTodoList}></TodoList3>
+      <DemoToShafin></DemoToShafin>
     </div>
   );
 }
